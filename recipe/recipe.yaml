@@ -1,6 +1,6 @@
 context:
   name: panel-reactflow
-  version: "0.5.1"
+  version: "0.6.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/panel_reactflow-${{ version }}.tar.gz
-  sha256: e1174ea8c2f5cbbefce27d16013a661101e638de27191713bfc33d4b3bf2790f
+  sha256: 0e3b4bfac746e947ae18cbe072d908682329d5c35be82f207cec924738524c7f
 
 build:
   noarch: python
